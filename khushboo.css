@@ -1,0 +1,647 @@
+html,body{
+    width:100%;
+    height:100%;
+/*    padding:0;*/
+}
+
+
+/*
+.img-overlay{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+*/
+.cover{
+    background-image: url("img/lap.jpg");
+    width:100%;
+    height:100%;
+    display:table;
+    box-shadow:inset 1px black;
+    
+}
+.bg-parallax{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*only can be used in css not in html imgsrc*/
+    background-attachment: fixed;
+}
+.img-overlay{
+    position:relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.something{
+    font-family: "Helvetica";
+    position:relative;
+    color:white;
+    vertical-align: middle;
+    display:table-cell;
+    font-size: 24px;
+    text-align:center;
+    padding:0 60px;
+}
+.something .hey{
+    font-family: "Helvetica";
+    font-size:16px;
+    color:white;
+    
+    
+}
+.link{
+    color:hotpink;
+}
+.soft{
+    margin-top:40px;
+    font-family: "Helvetica";
+    font-size:18px;
+    color:white;
+    
+}
+.btn{
+    color:white;
+    background: hotpink;
+    margin-top: 70px;
+    border-radius:0px;
+}
+.btn:hover{
+    color:white;
+    background: hotpink;
+    
+}
+.btn:visited{
+    color:white;
+    background: hotpink;
+    
+}
+.btn:active{
+    position: relative;
+    top:1px;
+    color:white;
+    background: hotpink;
+}
+.pink{
+    margin-top:50px;
+    
+}
+.girl{
+    height:100px;
+    margin-left:47%;
+}
+.Khush{
+  margin-left:40%;  
+    font-family: "Helvetica";
+    font-size:2.6em;
+    color:#454545;
+}
+.ruler{
+    width:100px;
+    height:4px;
+    background: hotpink;
+    margin-left:47%;
+}
+.front{
+    margin-left:40%;  
+    font-family: "Helvetica";
+    font-size:1.2em;
+    color:#aaa;
+}
+.contain{
+    margin-left:34%;
+    width:525px;
+    height:290px;
+    
+    box-shadow: 3px 3px 3px #ccc,-2px 0px 2px #ccc; 
+}
+.details1{
+    margin:0 auto;
+    padding:30px 50px;
+}
+.more{
+    margin-left:43%;
+}
+.so{
+    margin-left:48%;
+}
+.details{
+    font-family: "Helvetica";
+    font-size:1.5em;
+    color:#aaa;
+}
+.name{
+    font-family: "Helvetica";
+    color:#454545;
+    font-size:1em;
+}
+.circles{
+    margin-top:60px;
+    margin-left:19.4%;
+}
+.dot{
+    float:left;
+    display:block;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #ddd;
+    border:solid 2px hotpink;
+    
+    
+
+    
+}
+.dot2{
+    float:left;
+    display:block;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background: #ddd;
+    border:solid 2px hotpink;
+
+    display:inline-block;
+
+    
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/*
+.dot1{
+    margin-top:5px;
+    margin-left:7px;
+    height: 58px;
+    width: 57px;
+    background-color: hotpink;
+    border-radius: 50%;
+    
+    
+}
+*/
+.skills{
+    margin-top:80px;
+}
+.what{
+    padding:30px;
+    font-family:"helvetica";
+    font-size:3em;
+    color:white;
+    text-align:center;
+}
+.zoom {
+    
+    float:left;
+    transition: transform .2s;
+    width: 100px;
+    height: 200px;
+    margin-left:10%;
+    
+}
+
+.zoom:hover {
+    
+    transform: scale(1.5); 
+    cursor:pointer;
+}
+.new{
+    background:black;
+    width:1100px;
+    height:500px;
+    border-radius: 25px;
+    margin-left:13%;
+}
+.he{
+    color:white;
+    font-family:helvetica;
+    margin-left:34%;
+    font-size:1em;
+}
+.clock{
+    margin-top:10%;
+}
+.newly{
+    background-image: url("img/nature.jpg");
+    
+    width:100%;
+    height:560px;
+    display:table;
+    box-shadow:inset 1px;
+    margin-top:5%;
+    opacity:0.8;
+    
+    
+}
+i{
+    float:left;
+    font-family: "Helvetica";
+    color:black;
+    vertical-align: middle;
+    display:table-cell;
+    font-size: 24px;
+    padding:0 60px;
+    margin-top:15%;
+}
+.table{
+    margin-top:5%;
+    margin-left:29%;
+}
+.container1{
+    float:left;
+}
+.container2{
+    float:left;
+}
+.container3{
+    float:left;
+}
+.image1{
+    
+    background: url("img/network.png") no-repeat;
+    width:200px;
+    height:200px;
+    
+}
+.image2{
+    
+    background: url("img/coffee-cup.png") no-repeat;
+    width:200px;
+    height:200px;
+    margin-left:50px;
+    
+}
+.image3{
+    
+    background: url("img/clock-circular-outline.png") no-repeat;
+    width:200px;
+    height:200px;
+     margin-left:50px;
+    
+}
+.two1{
+    color:white;
+    font-family: "helvetica";
+    font-size:2em;
+    margin-left:27%;
+
+    
+}
+.two2{
+    color:white;
+    font-family: "helvetica";
+    font-size:2em;
+    margin-left:37%;
+
+    
+}
+.two3{
+    color:white;
+    font-family: "helvetica";
+    font-size:2em;
+    margin-left:42%;
+
+    
+}
+.q{
+    background:hotpink;
+    width:100px;
+    height:4px;
+    margin-left:20px;
+    
+}
+.rules-2{
+    background:hotpink;
+    width:100px;
+    height:4px;
+    margin-left:70px;
+    
+}
+.rules{
+    background:hotpink;
+    width:100px;
+    height:4px;
+    
+}
+.final{
+    margin-left:0px;
+    margin-top:4%;
+}
+.last1{
+    color:white;
+    font-family: "helvetica";
+    font-size:2em;
+    margin-left:-10px;
+
+    
+}
+.last2{
+    color:white;
+    font-family: "helvetica";
+    font-size:2em;
+    margin-left:12%;
+
+    
+}
+
+.tough{
+    margin-top:5%;
+}
+.what1{
+    padding:30px;
+    font-family:"helvetica";
+    font-weight: bold;
+    font-size:3em;
+    color:#454545;
+    text-align:center;
+}
+
+.loading{
+    margin-top:60px;
+    margin-left:7%;
+}
+
+/*
+.degree1{
+    margin-left:120px;
+}
+.degree2{
+    margin-left:120px;
+}
+*/
+  
+
+
+.loader1 {
+  
+    background: url(img/load1.jpg) no-repeat;
+    width:180px;
+    height:135px;
+}
+
+
+/*
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
+
+.givetop{
+    margin-top:40px;
+}
+.thirty{
+    font-size:2em;
+    color:#454545;
+    font-family: "helvetica";
+    
+}
+.pink-rule
+{
+    width:100px;
+    height:4px;
+    margin:auto;
+    background:hotpink;
+}
+.timeline{
+    margin-top:10%;
+    background:white;
+    border:dashed 2px hotpink;
+    width:1200px;
+    height:900px;
+    margin-left:11%;
+    
+    
+}
+.header{
+    width:1198px;
+    height:80px;
+    background: hotpink;
+    color:white;
+    margin-top:-20px;
+}
+.what12{
+    padding:15px;
+    font-family:"helvetica";
+    font-weight: bold;
+    font-size:3em;
+    color:#454545;
+    text-align:center;
+}
+
+.date1{
+    margin-bottom:70%;
+    background: hotpink;
+    color:white;
+    padding:20px 20px;
+    width:150px;
+    
+}
+.vertical{
+    margin-top:10%;
+    width:5px;
+    height:83%;
+    background: #454545;
+    position:relative;
+}
+.rec{
+    position:absolute;
+}
+.rectangle{
+    
+    width:45px;
+    height:45px;
+    margin-top:100px;
+    margin-left:-20px;
+    transform:rotate(45deg);
+    border:solid 2px hotpink;
+    background: white;
+    
+}
+
+.rectangle1{
+    
+    width:45px;
+    height:45px;
+    margin-top:200px;
+    margin-left:-20px;
+    transform:rotate(45deg);
+    border:solid 2px hotpink;
+    background: white;
+    
+}
+.rectangle2{
+
+    width:45px;
+    height:45px;
+    margin-top:200px;
+    margin-left:-20px;
+    transform:rotate(45deg);
+    border:solid 2px hotpink;
+    background: white;
+    
+}
+.iconic{
+    position:absolute;
+    transform:rotate(315deg);
+    background-position: center;
+    
+}
+.row{
+    margin-top:40%;
+    margin-left:-50%;
+}
+.chat{
+    width:500px;
+    height:120px;
+    position: relative;
+    background: #eee;
+    margin-top:-10px;
+}
+.current{
+    font-size:1.2em;
+    color:#454545;
+    margin-left:25px;
+    padding:10px;
+}
+.margin{
+    margin-left:35px;
+}
+.chat1{
+    width:500px;
+    height:120px;
+    position: relative;
+    background: #eee;
+    
+    
+    margin-top:30%;
+    
+    
+}
+.chat2{
+    width:500px;
+    height:120px;
+    position: relative;
+    background: #eee;
+    
+    margin-top:30%;
+    
+    
+}
+.wow{
+    margin-left:20px;
+    color:#454545;
+    padding:10px;
+    font-size:2em;
+}
+.triangle{
+    position:absolute;
+    background: #eee;
+    width:25px;
+    height:25px;
+    transform: rotate(45deg);
+    margin-left:-12px;
+    margin-top:15px;
+}
+.dates{
+    margin-top:10%;
+    margin-left:10%;
+}
+.projects{
+    background: url("img/projects%20training.jpg") no-repeat;
+    width:100%;
+    height:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
